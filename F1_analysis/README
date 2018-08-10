@@ -1,0 +1,13 @@
+## F1 Race Stats
+
+
+
+
+
+
+
+This folder contains the codes to extract data from F1 Official website and perform Data Manipulation steps.
+The first part is done in Python and the data stored in Dataframe object. The dataframe is exported as a CSV file format, found in datasets folder as F1_races.csv
+The Data Manipulation is done using R. The dataset is imported, cleaned and arranged accordingly. The final summary is saved as a separate CSV file. R's viz package, ggplot2 has been used to get plots and are stored in the Viz folder.
+The final separate CSV file can also be found in datasets folder as viz_f1.csv
+The "viz_f1.csv" is loaded into Tableau and 
