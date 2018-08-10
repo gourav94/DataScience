@@ -1,13 +1,21 @@
-## F1 Race Stats
+# F1_Race_Stats
 
+My first data analysis with my own dataset. After completing a lot of online courses and gaining a significant amount of knowledge on Datascience and the workflow, I decided to do something unique. Its a well known fact that Data scientists spend more than 80% of their time with Data cleaning and pre-processing. But the datasets available in Kaggle or any other course classroom, are either clean and ready to dive in for modelling or almost clean with just few mismatchings here and there. Hence I decided to create my own dataset.
+Yes, at first I thought it's going to be tough, but its actually quite easy if you know webscraping. And webscraping is not that difficult to learn.
 
+For the first trial, I have performed some analysis on F1 drivers, the race victories, their cars.
+The tools I have used in this process are:
+1) Python : Webscraping, storing the data into dataframe object and exported it into a CSV file
+2) R : Imported the csv  file, performed cleaning and Data manipulation steps and some plotting. The summary dataframe is exported to CSV
+3) Tableau: The final visualisation of the clean, structured and summarised file.
 
+The demands of this field are high and there is heavy expectations from Data scientists. And if you're just starting out, it is quite difficult to keep track of your skills. Hence I decided to use the top2 programming languages preferred by Data scientists. 
+This way, I can ensure that I don't get confused with the syntaxes and keywords.
 
-
-
+I could have done the final viz in R's amazing ggplot2, but I felt it's much easier to do in Tableau.
 
 This folder contains the codes to extract data from F1 Official website and perform Data Manipulation steps.
 The first part is done in Python and the data stored in Dataframe object. The dataframe is exported as a CSV file format, found in datasets folder as F1_races.csv
 The Data Manipulation is done using R. The dataset is imported, cleaned and arranged accordingly. The final summary is saved as a separate CSV file. R's viz package, ggplot2 has been used to get plots and are stored in the Viz folder.
 The final separate CSV file can also be found in datasets folder as viz_f1.csv
-The "viz_f1.csv" is loaded into Tableau and 
+The "viz_f1.csv" is loaded into Tableau and processed into a image.
